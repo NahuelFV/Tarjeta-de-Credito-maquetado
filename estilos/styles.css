@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tarjeta{
+    width: 640px;
+    height: 360px;
+    background-color: #2D69FF;
+    border-radius: calc(50px);
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
