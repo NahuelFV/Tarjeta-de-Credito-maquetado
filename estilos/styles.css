@@ -1,13 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .tarjeta{
     width: 640px;
     height: 360px;
-    background-color: #2D69FF;
+    background-color: #2d68ff;
     border-radius: calc(50px);
+    box-shadow: 12px 12px 20px -2px rgba(0,0,0,0.94);
+}
+
+body{
+    background: no-repeat linear-gradient(to right,#ff3867 ,#ffc873,#d37ec6);
 }
 
 main{
@@ -17,3 +23,59 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.conteiner{
+    margin: 16px 20px 0px 5px;
+}
+
+.iconos img{
+    height: 95px;
+}
+
+.nfc{
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    align-items: baseline;
+}
+
+
+.misDatos{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.misDatos h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.datos{
+    display: grid;
+    grid-template-columns: 280px 200px 50px;
+    justify-items: start;
+}
+
+.datos span{
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.one{
+    font-size: 16px  !important;
+    font-weight: 100 !important;
+}
+
